@@ -71,6 +71,10 @@ body {
     font-size: 1.3rem;
 }
 
+.content .arrow-down {
+    margin-top: 15rem;
+}
+
 .container {
     max-width: 960px;
     margin: auto;
@@ -172,6 +176,10 @@ footer p {
         display: none;
     }
 
+    .content .arrow-down {
+        display: none;
+    }
+
     .grid-3,
     .grid-2 {
         grid-template-columns: 1fr;
@@ -201,5 +209,9 @@ footer p {
 
     .content {
         top: 0;
+    }
+
+    .content .arrow-down {
+        margin-top: 0;
     }
 }
