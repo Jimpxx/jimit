@@ -71,8 +71,15 @@ body {
     font-size: 1.3rem;
 }
 
-.content .arrow-down {
-    margin-top: 20rem;
+.showcase .arrow-down {
+    z-index: 1;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    margin-left: -50px;
+    /* align-content: center;
+    text-align: center; */
+    /* margin-top: 20rem; */
 }
 
 .container {
@@ -176,7 +183,7 @@ footer p {
         display: none;
     }
 
-    .content .arrow-down {
+    .showcase .arrow-down {
         display: none;
     }
 
@@ -209,9 +216,5 @@ footer p {
 
     .content {
         top: 0;
-    }
-
-    .content .arrow-down {
-        margin-top: 0;
     }
 }
