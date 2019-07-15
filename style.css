@@ -159,6 +159,29 @@ footer p {
     background: #e4e4e4;
 }
 
+.contact {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.contact-form {
+    display: inline-block;
+}
+
+.input {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+    padding: 0.6rem 0.6rem;
+    box-sizing: border-box;
+    width: 32rem;
+    margin-bottom: 1.4rem;
+}
+
+.captcha {
+    margin: 1rem 0;
+}
 
 /* Small screens */
 
@@ -200,6 +223,10 @@ footer p {
 
     .projects {
         grid-template-columns: 1fr
+    }
+
+    .input {
+        width: 100%;
     }
 }
 
