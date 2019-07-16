@@ -153,6 +153,21 @@ footer p {
     margin-bottom: 0.3rem;
     background: #ddd;
     color: #222;
+    text-decoration: none;
+}
+
+.services {
+    padding-bottom: 4rem;
+}
+
+.services .btn {
+    width: 10rem;
+    background: #475BA5;
+    color: #fff;
+}
+
+.services .btn:hover {
+    background: rgb(89, 113, 199);
 }
 
 .btn:hover {
