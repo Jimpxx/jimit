@@ -58,6 +58,7 @@ body {
 .content .logo {
     height: 180px;
     /* width: 180px; */
+    margin-left: -30px;
 }
 
 .content .title {
